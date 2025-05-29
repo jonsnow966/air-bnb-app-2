@@ -5,7 +5,7 @@ function HeaderSecondary() {
       flex flex-row 
       items-center justify-between">
         
-        <a href="https://v0-airbnb-landingpage.vercel.app" className= "w-32 h-16 ml-8 cursor-pointer">
+        <a href="https://v0-airbnb-landingpage-git-master-jon-snows-projects-8452e2ba.vercel.app/" className= "w-32 h-16 ml-8 cursor-pointer">
           <img rel="logo" src="assets/airbnb-ar21.svg" className="w-full h-full"/>
         </a>
         
