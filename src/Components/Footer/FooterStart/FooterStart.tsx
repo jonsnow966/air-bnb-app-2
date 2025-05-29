@@ -1,6 +1,6 @@
 function FooterStart() {
   return (
-    <div className="w-[100%] h-96 relative top-0">
+    <div className="w-[100%] h-fit relative top-0">
       <p className="text-black cursor-text text-2xl my-2 font-medium mx-2">Inspiration for future getaways</p> 
 
       <div className="flex gap-5 border-gray-300 border-b-[1px]">
