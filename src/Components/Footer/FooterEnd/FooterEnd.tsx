@@ -1,6 +1,6 @@
 function FooterEnd() {
   return (
-    <div className="flex px-0 w-full h-20 border-gray-300 border-t-[1px] text-black">
+    <div className="flex px-0 w-full h-fit items-center border-gray-300 border-t-[1px] text-black">
       <div className='flex items-center gap-1 '>
         <span className='mr-0.5 mb-0.5 cursor-text truncate'>&copy;&nbsp;2025 Airbnb,Inc.</span>
 

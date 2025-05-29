@@ -16,7 +16,7 @@ function App() {
         
       </main>
 
-      <footer className="w-full bg-[#f8f8f8] pt-6 px-8 pb-4 flex-1 overflow-y-auto justify-center items-center">
+      <footer className="w-full h-fit bg-[#f8f8f8] pt-6 px-8 pb-4 flex-1 overflow-y-auto justify-center items-center">
         <Footer />
       </footer>
 

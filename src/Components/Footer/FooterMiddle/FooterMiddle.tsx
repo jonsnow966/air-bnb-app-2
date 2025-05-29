@@ -1,6 +1,6 @@
 function FooterMiddle() {
   return (
-    <div className="w-full h-[450px] relative top-0 pl-2 pt-7 flex gap-x-[15px]">
+    <div className="w-full h-fit relative top-0 pl-2 pt-20 pb-20 flex gap-x-[15px]">
       <div className="flex flex-col gap-4 w-[30%] text-black">
         <p className="font-medium hover:cursor-text">Support</p>
 
