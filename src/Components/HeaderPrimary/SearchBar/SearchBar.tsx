@@ -57,7 +57,7 @@ function SearchBar() {
         <a className="bg-red-500 w-12 h-12 rounded-full
         flex items-center justify-center z-10 absolute hover:bg-red-600" 
         style={{right: '29.5%'}}>     
-            <img rel="icon" src="/src/assets/search-icon.png"
+            <img rel="icon" src="/public/search-icon.png"
             className="w-5"></img>
         </a>
         

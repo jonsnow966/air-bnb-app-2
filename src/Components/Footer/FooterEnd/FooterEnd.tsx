@@ -33,7 +33,7 @@ function FooterEnd() {
           hover:text-gray-500 hover:underline hover:underline-offset-1
           truncate flex flex-row gap-2 items-center'>
             Your Privacy Choices
-            <img rel="icon" src="/src/assets/icon-footer.png"
+            <img rel="icon" src="/public/icon-footer.png"
             className="w-6 h-3"></img>
             </a>
         </div>
@@ -43,7 +43,7 @@ function FooterEnd() {
             <a className="flex flex-row h-8 w-32 items-center gap-1
             rounded-lg hover:bg-[#e2e2e2]
             px-2 text-[16px] cursor-pointer">
-              <img rel="icon" src="/src/assets/globe.avif"
+              <img rel="icon" src="/public/globe.avif"
               className="w-4 h-4"></img>
               English (US)
             </a>
@@ -57,21 +57,21 @@ function FooterEnd() {
             <a className="flex flex-row h-8 w-8 items-center gap-1
             rounded-full hover:bg-[#e2e2e2]
             px-2 text-[16px] cursor-pointer">
-              <img rel="icon" src="/src/assets/facebook-icon.png"
+              <img rel="icon" src="/public/facebook-icon.png"
               className="w-4 h-4"></img>
             </a>
 
             <a className="flex flex-row h-8 w-8 items-center gap-1
             rounded-full hover:bg-[#e2e2e2]
             px-2 text-[16px] cursor-pointer">
-              <img rel="icon" src="/src/assets/X_icon.png"
+              <img rel="icon" src="/public/X_icon.png"
               className="w-4 h-4"></img>
             </a>
 
             <a className="flex flex-row h-8 w-8 items-center gap-1
             rounded-full hover:bg-[#e2e2e2]
             px-2 text-[16px] cursor-pointer">
-              <img rel="icon" src="/src/assets/instagram_icon.png"
+              <img rel="icon" src="/public/instagram_icon.png"
               className="w-4 h-4"></img>
             </a>
         </div>
