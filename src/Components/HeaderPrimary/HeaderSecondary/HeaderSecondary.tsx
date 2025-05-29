@@ -10,10 +10,10 @@ function HeaderSecondary() {
         </a>
         
         <div className="w-2/4 h-full ml-14
-        flex flex-row justify-center items-center gap-2">
+        flex   justify-center items-center gap-2">
           
           <a className="bg-inherit text-gray-500
-          h-16 w-28 rounded-none flex flex-row items-center justify-center
+          h-16 w-28 rounded-none flex   items-center justify-center
           cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
               <img rel="icon" src="assets/homes-ico.avif" 
               className="w-10 hover:w-12 transition-all"></img>
@@ -21,7 +21,7 @@ function HeaderSecondary() {
           </a>
 
           <a className="bg-inherit text-gray-500
-          h-16 w-32  rounded-none flex flex-row items-center justify-center
+          h-16 w-32  rounded-none flex   items-center justify-center
           cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
               <img rel="icon" src="assets/experiences-ico.avif" 
               className="w-6 hover:w-8 transition-all"></img>
@@ -29,7 +29,7 @@ function HeaderSecondary() {
           </a>
           
           <a className="bg-inherit text-gray-500
-          h-16 w-28  rounded-none flex flex-row items-center justify-center
+          h-16 w-28  rounded-none flex   items-center justify-center
           cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
               <img rel="icon" src="assets/services-ico.avif"
               className="w-8 hover:w-10 transition-all"></img>
@@ -37,7 +37,7 @@ function HeaderSecondary() {
           </a>
         </div>
         
-        <div className="w-60 h-20 mr-8 flex flex-row justify-center items-center gap-2">
+        <div className="w-60 h-20 mr-8 flex   justify-center items-center gap-2">
           <button className="bg-inherit w-32 h-10 text-sm text-wrap text-black rounded-3xl 
           border-none outline-none hover:bg-[#c7c7c7] transition-colors">
             Become a host

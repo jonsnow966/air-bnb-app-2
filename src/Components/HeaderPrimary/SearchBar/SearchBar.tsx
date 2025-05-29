@@ -9,7 +9,7 @@ function SearchBar() {
   return (
     <>
       <div className="bg-slate-50 w-5/12 h-16 rounded-full 
-      flex fle flex-row shadow-lg cursor-pointer items-center
+      flex fle   shadow-lg cursor-pointer items-center
       ">
 
         <a id="search_bar" className="w-64 h-full rounded-full bg-slate-50

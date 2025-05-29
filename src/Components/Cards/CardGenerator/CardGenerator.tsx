@@ -33,7 +33,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
     <>
       <div className="flex flex-col mt-3 w-full pl-1 justify-center">
 
-        <div className="h-10 flex flex-row items-center gap-1 mb-2">
+        <div className="h-10 flex   items-center gap-1 mb-2">
           <p className="text-black font-medium text-xl pb-1 
           cursor-pointer">
             {tagLine}</p>
@@ -41,17 +41,17 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
             <img rel="icon" src='assets/right-arrow.png'
             className="w-3 h-3"></img>
 
-            <div className='w-20 h-6 flex flex-row items-center gap-1
+            <div className='w-20 h-6 flex   items-center gap-1
             absolute right-10 mr-[-20px]'>
 
-              <a className="flex flex-row h-6 w-6 items-center gap-1
+              <a className="flex   h-6 w-6 items-center gap-1
               rounded-full hover:bg-[#dbdbdb] justify-center
               text-[16px] cursor-pointer opacity-15 border-gray-500
               border-[1px] hover:border-none hover:opacity-100">
                 <img rel="icon" src="assets/left-arrow.png"
                 className="w-[10px] h-[10px]"></img>
               </a>
-              <a className="flex flex-row h-6 w-6 items-center gap-1
+              <a className="flex   h-6 w-6 items-center gap-1
               rounded-full hover:bg-[#dbdbdb] justify-center
               text-[16px] cursor-pointer opacity-15 border-gray-500
               border-[1px] hover:border-none hover:opacity-100">
@@ -62,7 +62,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
             </div>
         </div>
 
-        <div className='w-fit h-fit flex flex-row gap-2.5'>
+        <div className='w-fit h-fit flex   gap-2.5'>
           {cardData.map(item => (
             <div key={item.id} className='w-64 h-72 cursor-pointer'>
               <img rel='picture' src={`assets/${item.pic}`}
@@ -70,7 +70,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
               <p className='text-black font-medium'>
                 {item.cardName}</p>
 
-              <p className='flex flex-row items-center
+              <p className='flex   items-center
               text-xs text-gray-500'>
                 <span className='mr-0.5 mb-0.5 cursor-text'>{item.text}</span>
 

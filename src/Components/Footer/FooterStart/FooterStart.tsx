@@ -6,7 +6,7 @@ function FooterStart() {
         font-medium mx-2">
           Inspiration for future getaways</p> 
 
-        <div className="flex flex-row gap-5 border-gray-300
+        <div className="flex   gap-5 border-gray-300
         border-b-[1px]">
 
           <a className="p-2 text-gray-500 
@@ -34,7 +34,7 @@ function FooterStart() {
           </a>
         </div>
 
-        <div  className="flex flex-row gap-3">
+        <div  className="flex   gap-3">
         <div className="grid grid-cols-6 gap-x-36 gap-y-7 m-2 pt-5 cursor-pointer">
           <div className="leading-[1.5]">
             <p className="text-black font-medium">Cabins</p>
@@ -106,7 +106,7 @@ function FooterStart() {
             <p className="text-black font-medium">Luxury Cabins</p>
             <p className="text-gray-500 hover:text-black">United Kingdom</p>
           </div>
-          <div className="leading-.5 flex flex-row gap-1">
+          <div className="leading-.5 flex   gap-1">
             <p className="text-black font-medium
             hover:underline hover:underline-offset-1">Show more</p>
             <img rel="icon" src="assets/arrow-down-icon.png" 
