@@ -2,17 +2,17 @@ function HeaderSecondary() {
   return (
     <>
      <div className="w-full h-28 
-      flex flex-row 
+      flex 
       items-center justify-between">
         
-        <a href="https://v0-airbnb-landingpage-git-master-jon-snows-projects-8452e2ba.vercel.app/" className= "w-32 h-16 ml-8 cursor-pointer">
+        <a className= "w-32 h-16 ml-8 cursor-pointer">
           <img rel="logo" src="assets/airbnb-ar21.svg" className="w-full h-full"/>
         </a>
         
         <div className="w-2/4 h-full ml-14
         flex flex-row justify-center items-center gap-2">
           
-          <a className="bg-inherit  text-gray-500
+          <a className="bg-inherit text-gray-500
           h-16 w-28 rounded-none flex flex-row items-center justify-center
           cursor-pointer gap-2 hover:text-black hover:border-b-2 hover:border-black">
               <img rel="icon" src="assets/homes-ico.avif" 
