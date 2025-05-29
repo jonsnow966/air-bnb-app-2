@@ -38,22 +38,25 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
           cursor-pointer">
             {tagLine}</p>
 
-            <img rel="icon" src='/public/right-arrow.png'
+            <img rel="icon" src='assets/right-arrow.png'
             className="w-3 h-3"></img>
 
             <div className='w-20 h-6 flex flex-row items-center gap-1
             absolute right-10 mr-[-20px]'>
-              <a className="flex flex-row h-8 w-8 items-center gap-1
-              rounded-full hover:bg-[#e2e2e2] justify-center
-              text-[16px] cursor-pointer">
-                <img rel="icon" src="/public/left-arrow.png"
-                className="w-3 h-3"></img>
+
+              <a className="flex flex-row h-6 w-6 items-center gap-1
+              rounded-full hover:bg-[#dbdbdb] justify-center
+              text-[16px] cursor-pointer opacity-15 border-gray-500
+              border-[1px] hover:border-none hover:opacity-100">
+                <img rel="icon" src="assets/left-arrow.png"
+                className="w-[10px] h-[10px]"></img>
               </a>
-              <a className="flex flex-row h-8 w-8 items-center gap-1
-              rounded-full hover:bg-[#e2e2e2] justify-center
-              text-[16px] cursor-pointer">
-                <img rel="icon" src="/public/right-arrow.png"
-                className="w-3 h-3"></img>
+              <a className="flex flex-row h-6 w-6 items-center gap-1
+              rounded-full hover:bg-[#dbdbdb] justify-center
+              text-[16px] cursor-pointer opacity-15 border-gray-500
+              border-[1px] hover:border-none hover:opacity-100">
+                <img rel="icon" src="assets/right-arrow.png"
+                className="w-[10px] h-[10px]"></img>
               </a>
               
             </div>
@@ -62,7 +65,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
         <div className='w-fit h-fit flex flex-row gap-2.5'>
           {cardData.map(item => (
             <div key={item.id} className='w-64 h-72 cursor-pointer'>
-              <img rel='picture' src={`/public/${item.pic}`}
+              <img rel='picture' src={`assets/${item.pic}`}
               className='w-full h-4/5 rounded-3xl object-cover'></img>
               <p className='text-black font-medium'>
                 {item.cardName}</p>
@@ -73,7 +76,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
 
                 <span className='mx-1 mb-[8px]'>.</span>
 
-                <img rel='icon' src='/src/assets/star-16.png'
+                <img rel='icon' src='assets/star-16.png'
                 className='w-2.5 h-2.5'></img>
 
                 <span className='ml-0.5'>{item.rating}</span>
