@@ -8,7 +8,7 @@ function App() {
 
       <HeaderPrimary />
 
-      <main className="w-full pt-56 px-6 pb-4 flex flex-col overflow-y-auto justify-center">
+      <main className="w-full pt-32 md:pt-56 px-6 pb-4 flex flex-col overflow-y-auto justify-center">
 
         <CardGenerator title={'Lahore'} tagLine={'Popular homes in Lahore'}/>
         <CardGenerator title={'Islamabad'} tagLine={'Available in Islamabad this weekend'}/>

@@ -32,13 +32,13 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
   return (
     <div className="flex flex-col mt-3 w-full pl-1 justify-center items-center">
       <div className='flex flex-col gap-1 items-start'>
-        <div className="h-10 flex items-center gap-1 mb-2">
+        <div className="h-10 flex items-center gap-1 mb-4 ">
           
           <p className="text-black font-medium text-xl pb-1 cursor-pointer">{tagLine}</p>
           
           <img rel="icon" src='assets/right-arrow.png' className="w-3 h-3"></img>
           
-          <div className='w-20 h-6 flex items-center gap-1 absolute right-10 mr-[-20px]'>
+          <div className='hidden  w-20 h-6 xs:flex items-center gap-1 absolute right-10 mr-[-20px]'>
             <div className="flex h-6 w-6 items-center gap-1 rounded-full hover:bg-[#dbdbdb] justify-center
             text-[16px] cursor-pointer opacity-15 border-gray-500 border-[1px] hover:border-none hover:opacity-100">
                 
@@ -58,7 +58,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
         <div className='w-fit h-fit flex flex-wrap gap-2.5'>
           
           {cardData.map(item => (
-                <div key={item.id} className='w-64 h-72 cursor-pointer'>
+                <div key={item.id} className='w-[95%] h-[400px] xs:w-[48%] xs:h-[390px]  md:w-[32%] md:h-72 lg:w-[250px] cursor-pointer'>
                   <img rel='picture' src={`assets/${item.pic}`} className='w-full h-4/5 rounded-3xl object-cover'></img>
                   
                   <p className='text-black font-medium'>{item.cardName}</p>

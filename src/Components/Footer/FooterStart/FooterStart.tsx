@@ -1,9 +1,9 @@
 function FooterStart() {
   return (
     <div className="w-[100%] h-fit relative top-0">
-      <p className="text-black cursor-text text-2xl my-2 font-medium mx-2">Inspiration for future getaways</p> 
+      <p className="text-black cursor-text text-2xl mb-4 md:m-2  font-medium">Inspiration for future getaways</p> 
 
-      <div className="flex gap-5 border-gray-300 border-b-[1px]">
+      <div className="flex gap-2 text-[12px] sm:text-lg md:text-xl md:gap-5 border-gray-300 border-b-[1px]">
         <div className="p-2 text-gray-500 cursor-pointer font-normal hover:text-black hover:border-black hover:border-b-2">
           Unique stays
         </div>
@@ -21,8 +21,8 @@ function FooterStart() {
         </div>
       </div>
 
-      <div  className="flex gap-3">
-        <div className="grid grid-cols-6 gap-x-36 gap-y-7 m-2 pt-5 cursor-pointer">
+      <div  className="flex gap-1 md:gap-3">
+        <div className="grid grid-cols-3 xs:grid-cols-4 md:grid-cols-6 text-[14px] md:text-lg gap-x-11 gap-y-8 lg:gap-x-32 lg:gap-y-7 m-2 pt-5 cursor-pointer">
 
           <div className="leading-[1.5]">
             <p className="text-black font-medium">Cabins</p>
