@@ -38,7 +38,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({ title, tagLine }) => {
           
           <img rel="icon" src='assets/right-arrow.png' className="w-3 h-3"></img>
           
-          <div className='hidden  w-20 h-6 xs:flex items-center gap-1 absolute right-10 mr-[-20px]'>
+          <div className='hidden xs:flex w-20 h-6  items-center gap-1 absolute right-10 mr-[-20px]'>
             <div className="flex h-6 w-6 items-center gap-1 rounded-full hover:bg-[#dbdbdb] justify-center
             text-[16px] cursor-pointer opacity-15 border-gray-500 border-[1px] hover:border-none hover:opacity-100">
                 
